@@ -2,7 +2,7 @@ from telegram import Update
 from telegram.ext import Updater, CommandHandler, CallbackContext
 import os
 
-TOKEN = os.environ.get("8294613978:AAHMD-eZgExDPB2I63wcOTbpJr5iG8xY3Dw")
+TOKEN = os.environ.get("BOT_TOKEN")
 
 def start(update: Update, context: CallbackContext):
     update.message.reply_text("Use /download to get the file")
